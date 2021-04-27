@@ -1,0 +1,62 @@
+#footer{
+    width: 1366px;
+    height: 174px;
+    position: absolute;
+    top: 4706px;
+    display: flex;
+}
+
+.logo-cnpj{
+    margin-top: 30px;
+    margin-left: 198px;
+}
+
+.logo-cnpj img{
+    margin-bottom: 0;
+}
+
+.logo-cnpj p{
+    margin-top: 10px;
+
+    letter-spacing: 0.35px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #BDBDBD;
+}
+
+.logo-cnpj span{
+    margin-top: 14.55px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #BDBDBD;
+}
+
+.copyright{
+    margin-left: 423px;
+    margin-top: 98px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #4F4F4F;
+}
+
+.botao-topo{
+    margin-left: 66px;
+    margin-top: 48px;
+}

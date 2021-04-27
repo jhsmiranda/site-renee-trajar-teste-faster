@@ -1,0 +1,286 @@
+/*  1 - Container */
+
+#depoimentos{
+    width: 1366px;
+    height: 608px;
+    position: absolute;
+    top: 3595px;
+    background-color: #013145;
+}
+
+/*  1.1 - Fundo do Container */
+
+.fundo-depoimentos{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/*  1.2 - Título Depoimentos */
+
+.depoimentos-clientes h1{
+    margin: 0;
+    width: 198px;
+    position: relative;
+    top: 62px;
+    left: 586px;
+
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 46px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F2F2F2;
+
+    border-bottom: 1px solid none;
+    padding-bottom: 10px;
+}
+
+.depoimentos-clientes h1::before{
+    content : "";
+    position: absolute;
+    left    : 70px;
+    bottom  : 0;
+    width   : 52px;
+    border-bottom:1px solid #70B0C4;
+    transition: 0.5s;
+}
+
+.depoimentos-clientes h1:hover:before{
+    width: 408px;
+    position: absolute;
+    left: -110px;
+}
+
+.elemento-1{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 491px;
+    left: 620px;
+}
+
+.elemento-2{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 491px;
+    left: 653px;
+}
+
+.elemento-3{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 491px;
+    left: 685px;
+}
+
+.elemento-4{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 491px;
+    left: 715px;
+}
+
+.elemento-ativo button{
+    width: 10px;
+    height: 10px;
+}
+
+.elemento-cheio{
+    margin: 18px 10px;
+    width: 12px;
+    height: 12px;
+    background: #014561;
+    border: 1px solid #014561;
+    border-radius: 7px;
+}
+
+.elemento-vazado{
+    margin: 20px 10px;
+    width: 8px;
+    height: 8px;
+    background: none;
+    border: 1px solid #014561;
+    border-radius: 8px;
+}
+
+/*  1.3 - Depoimento Cliente */
+
+.fundo-avatar{
+    position: absolute;
+    top: 159px;
+    left: 625px;
+
+    height: 125px;
+    width: 125px;
+    border-radius: 68px;
+    background: #BE9667;
+}
+
+.avatar-cliente img{
+    position: absolute;
+    top: 161px;
+    left: 627px;
+}
+
+.depoimento-cliente{
+    margin: 0;
+    position: absolute;
+    top: 298px;
+    left: 307px;
+
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #c4c4c4;
+}
+
+.depoimento-cliente p{
+    margin: 0;
+}
+
+.depoimentos-clientes h2{
+    margin-top: 15px;
+    margin-bottom: 2px;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #BE9667;
+}
+
+.depoimentos-clientes h3{
+    margin-top: 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-align: center;
+
+    color: #949494;
+}
+
+/*  1.3.1 - Depoimento Cliente 1 */
+
+#cliente1 .depoimento-cliente{
+    width: 754px;
+    height: 124px;
+}
+
+/*  1.3.2 - Depoimento Cliente 2 */
+
+#cliente2 .depoimento-cliente{
+    position: absolute;
+    top: 298px;
+    left: 326px;
+
+    width: 716px;
+    height: 155px;
+}
+
+#cliente2 .elemento-1{
+    position: absolute;
+    left: 622.5px;
+}
+
+#cliente2 .elemento-2{
+    position: absolute;
+    left: 651.2px;
+}
+
+/*  1.3.3 - Depoimento Cliente 3 */
+
+#cliente3 .depoimento-cliente{
+    width: 748px;
+    height: 155px;
+}
+
+#cliente3 .elemento-1{
+    position: absolute;
+    left: 622.5px;
+}
+
+#cliente3 .elemento-3{
+    position: absolute;
+    left: 683.5px;
+}
+
+/*  1.3.4 - Depoimento Cliente 4 */
+
+#cliente4 .depoimento-cliente{
+    position: absolute;
+    top: 295px;
+    left: 272px;
+
+    width: 822px;
+    height: 124px; 
+}
+
+#cliente4 .elemento-1{
+    position: absolute;
+    left: 622.5px;
+}
+
+#cliente4 .elemento-4{
+    position: absolute;
+    left: 713.5px;
+}
+
+/* 1.5. - Botões */
+
+.depoimentos-clientes button{
+    height: 51px;
+    width: 17px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.left{
+    position: absolute;
+    top: 330px;
+    left: 152px;
+}
+
+.right{
+    position: absolute;
+    top: 330px;
+    left: 1199px;
+}
+
+.ativo{
+    visibility: visible;
+    opacity: 1;
+    transition-duration: 1.5s;
+}
+
+.inativo{
+    visibility: hidden;
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.elemento-ativo{
+    visibility: visible;
+}
+
+.elemento-inativo{
+    visibility: hidden;
+    transition-delay: 0.1s;
+}

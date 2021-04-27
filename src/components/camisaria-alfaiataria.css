@@ -1,0 +1,324 @@
+.camisariaalfaiataria{
+    width: 1366px;
+    height: 1293px;
+    position: absolute;
+    top: 2302px;
+}
+
+#camisaria{
+    width: 1366px;
+    height: 646.5px;
+    position: absolute;
+    top: 0px;
+}
+
+#alfaiataria{
+    width: 1366px;
+    height: 646.5px;
+    position: absolute;
+    top: 646.5px;
+}
+
+/* Camisaria */
+
+.camisaria-conteudo{
+    width: 1011px;
+    height: 385px;
+
+    position: relative;
+    top: 151px;
+    left: 258px;
+
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+}
+
+.camisariaalfaiataria h1{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 62px;
+    line-height: 75px;
+
+    text-transform: uppercase;
+
+    color: #014561;
+}
+
+.camisaria-conteudo h1{
+    position: relative;
+    top: 55px;
+    left: 512px;
+    margin: 0;
+}
+
+.camisariaalfaiataria p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    margin-left: 20px;
+
+    color: #C4C4C4;
+}
+
+.camisaria-conteudo .descricao{
+    position: relative;
+    top: 15px;
+    left: 510px;
+}
+
+.camisariaalfaiataria .lista{
+    display: flex;
+}
+
+.camisariaalfaiataria li{
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #727272;
+    list-style: none;
+}
+
+.camisariaalfaiataria li::before{
+    content: "•";
+    color: #727272;
+    margin-right: 15px;
+}
+
+.camisaria-conteudo .lista{
+    position: relative;
+    top: 20px;
+    left: 485px;
+}
+
+.camisaria-conteudo .lista1{
+    margin-right: 30px;
+}
+
+.camisaria-conteudo .orcamento-camisaria{
+    position: relative;
+    top: 34px;
+    left: 510px;
+
+    width: 330px;
+    height: 50px;
+
+    background: #014561;
+    border-radius: 2px;
+    border: none;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #E5E5E5;
+
+    transition: 0.5s;
+}
+
+.camisaria-conteudo .orcamento-camisaria:hover{
+    background: #013145;
+}
+
+.zoom{
+    width: 530px;
+    height: 488px;
+    overflow: hidden;
+    position: absolute;
+    top: 100px;
+    left: 168px;
+    z-index: 0;
+}
+
+.zoom img{
+    max-width: 100%;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.fundo-hiden{
+    width: 530px;
+    height: 488px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: none;
+    transition: 1s;
+}
+
+.zoom:hover img{
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.fundo-hiden:hover{
+    background: rgba(0, 26, 36, 0.61);
+}
+
+.borda-superior{
+    width: 550px;
+    height: 0px;
+    border-top: 1px solid #1C86A4;
+
+    position: absolute;
+    top: 112px;
+    left: 158px;
+}
+
+.borda-direita{
+    width: 0px;
+    height: 464px;
+    border-right: 1px solid #1C86A4;
+
+    position: absolute;
+    top: 112px;
+    left: 707px;
+}
+
+.borda-inferior{
+    width: 550px;
+    height: 0px;
+    border-bottom: 1px solid #1C86A4;
+
+    position: absolute;
+    top: 575px;
+    left: 158px;
+}
+
+.borda-esquerda{
+    width: 0px;
+    height: 464px;
+    border-left: 1px solid #1C86A4;
+
+    position: absolute;
+    top: 112px;
+    left: 158px;
+}
+
+/* .fundo-hiden::before{
+    content: '';
+    width: 550px;
+    height: 464px;
+    border: 1px solid #1C86A4;
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 12px;
+    left: -14px;
+} */
+
+/* .elemento-borda:hover{
+    background: none;
+} */
+
+/* Alfaiataria */
+
+.alfaiataria-conteudo{
+    width: 1011px;
+    height: 385px;
+
+    position: relative;
+    top: 151px;
+    left: 98px;
+
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+}
+
+.alfaiataria-conteudo h1{
+    position: relative;
+    top: 55px;
+    left: 72px;
+    margin: 0;
+}
+
+.alfaiataria-conteudo .descricao{
+    position: relative;
+    top: 15px;
+    left: 72px;
+}
+
+.alfaiataria-conteudo .lista{
+    position: relative;
+    top: 16px;
+    left: 46px;
+}
+
+.alfaiataria-conteudo .lista1{
+    margin-right: -10px;
+}
+
+.alfaiataria-conteudo .orcamento-alfaiataria{
+    position: relative;
+    top: 28px;
+    left: 70px;
+
+    width: 330px;
+    height: 50px;
+
+    background: #014561;
+    border-radius: 2px;
+    border: none;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #E5E5E5;
+
+    transition: 0.5s;
+}
+
+.alfaiataria-conteudo .orcamento-alfaiataria:hover{
+    background: #013145;
+}
+
+#alfaiataria .zoom{
+    width: 530px;
+    height: 488px;
+    overflow: hidden;
+    position: absolute;
+    top: 100px;
+    left: 668px;
+}
+
+#alfaiataria .borda-superior{
+    position: absolute;
+    top: 112px;
+    left: 658px;
+}
+
+#alfaiataria .borda-direita{
+    position: absolute;
+    top: 112px;
+    left: 1207px;
+}
+
+#alfaiataria .borda-inferior{
+    position: absolute;
+    top: 575px;
+    left: 658px;
+}
+
+#alfaiataria .borda-esquerda{
+    position: absolute;
+    top: 112px;
+    left: 658px;
+}

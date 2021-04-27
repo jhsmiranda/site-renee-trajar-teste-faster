@@ -1,0 +1,277 @@
+#contato{
+    width: 1366px;
+    height: 503px;
+    position: absolute;
+    top: 4203px;
+    border-bottom: 1px solid #BE9667;
+    display: flex;
+}
+
+.informacoes-contato{
+    width: 578px;
+    height: 503px;
+}
+
+.formulario-contato{
+    width: 788px;
+    height: 503px;
+}
+
+/* Informações de Contato */
+
+#contato h2{
+    /* position: absolute;
+    top: 4350px;
+    left: 198px; */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-transform: uppercase;
+
+    color: #1C86A4;
+}
+
+.informacoes-contato p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #828282;
+}
+
+.telefones{
+    position: absolute;
+    top: 130px;
+    left: 198px;
+}
+
+.telefones h2{
+    margin-bottom: -10px;
+}
+
+.email{
+    position: absolute;
+    top: 200px;
+    left: 198px;
+}
+
+.email h2{
+    margin-bottom: -10px;
+}
+
+/* Atendimento Personalizado */
+
+.atendimento-personalizado{
+    position: absolute;
+    top: 318px;
+    left: 198px;
+}
+
+.clique-aqui{
+    width: 270px;
+    height: 50px;
+    background: none;
+
+    border: 1px solid #1C86A4;
+    box-sizing: border-box;
+    border-radius: 2px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #014561;
+
+    transition: 0.5s;
+}
+
+.clique-aqui:hover{
+    border: 1px solid #BE9667;
+    color: #BE9667;
+}
+
+/* Formulário */
+
+.formulario-contato{
+    margin: 0px;
+}
+
+.formulario-contato h1{
+    position: absolute;
+    top: 25px;
+    left: 622px;
+
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 46px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #1C86A4;
+
+    border-bottom: 1px solid none;
+    padding-bottom: 10px;
+}
+
+.formulario-contato h1::before{
+    content: "";
+    position: absolute;
+    top: 55px;
+    left    : 35px;
+    width   : 52px;
+    border-bottom:1px solid #70B0C4;
+    transition: 0.5s;
+}
+
+.formulario-contato h1:hover:before{
+    width: 408px;
+    position: absolute;
+    left: -145px;
+}
+
+.form-contato input, .mensagem-form{
+    border: 1px solid #1C86A4;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding-left: 12px;
+}
+
+.form-contato input:focus {
+    outline: none !important;
+    border:1px solid #E0E0E0;
+}
+
+/* Alteração da cor da borda do input depois de preenchido
+.form-contato input:not(:placeholder-shown) {
+    border-color: green;
+} */
+
+.form-contato input::placeholder, .mensagem-form::placeholder{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #C4C4C4;
+
+    transition-duration: 0.5s;
+}
+
+.form-contato input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.nome-form, .email-form{
+    width: 600px;
+    height: 42px;
+}
+
+.mensagem-label{
+    position: absolute;
+    top: 250px;
+    left: 600px;
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.mensagem-form{
+    position: absolute;
+    top: 266px;
+    left: 598px;
+
+    width: 600px;
+    height: 77px;
+    padding-top: 12px;
+}
+
+.mensagem-form:focus {
+    outline: none !important;
+    border:1px solid #E0E0E0;
+}
+
+.form-contato label{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #1C86A4;
+}
+
+.nome-form{
+    position: absolute;
+    top: 146px;
+    left: 598px;
+}
+
+.nome-label{
+    position: absolute;
+    top: 130px;
+    left: 600px;
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.email-form{
+    position: absolute;
+    top: 206px;
+    left: 598px;
+}
+
+.email-label{
+    position: absolute;
+    top: 190px;
+    left: 600px;
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.enviar-mensagem{
+    position: absolute;
+    top: 369px;
+    left: 598px;
+
+    width: 600px;
+    height: 50px;
+
+    background: #014561;
+    border-radius: 2px;
+    border: none;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #E5E5E5;
+
+    transition: 0.5s;
+}
+
+.enviar-mensagem:hover{
+    background: #00648C;
+}
+
+.mudarLabel{
+    visibility: hidden;
+    opacity: 0;
+}
