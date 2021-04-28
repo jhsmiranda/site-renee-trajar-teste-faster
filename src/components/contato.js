@@ -59,7 +59,7 @@ export default props => {
                         <label form="email" className={inputFocusEmail ? 'email-label' : 'mudarLabel'}>E-mail</label>
                         <input type="email" onFocus={focusInputEmail} onBlur={blurInputEmail} className="email-form" placeholder="E-mail"/>
                         <label form="mensagem" className={inputFocusMensage ? 'mensagem-label' : 'mudarLabel'}>Mensagem</label>
-                        <textarea onFocus={focusInputMensage} onBlur={blurInputMensage} className="mensagem-form" placeholder={inputFocusMensage ? "Enviar mensagem" : "Mensagem"}></textarea>
+                        <textarea onFocus={focusInputMensage} onBlur={blurInputMensage} className="mensagem-form" placeholder={inputFocusMensage ? "Digite sua mensagem" : "Mensagem"}></textarea>
                     </form>
                     <button type="submit" className="enviar-mensagem">Enviar Mensagem</button>
                 </div>
